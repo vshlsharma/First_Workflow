@@ -9,6 +9,10 @@ jobs:
    runs-on: ubuntu-latest
 
    steps:
-     - name: Greetings
+     - name: step1
        run: echo "Hi , Vishal this side "
+
+     - name: step2
+       run: echo "Hi this is another step 2"
+     
        
