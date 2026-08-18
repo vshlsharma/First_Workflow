@@ -1,0 +1,14 @@
+name: My first CI Pipeline concurrency
+
+on:
+ push:
+  branches: [ main ]
+
+jobs:
+  build:
+   runs-on: ubuntu-latest
+
+   steps:
+     - name: Greetings
+       run: echo "Hi , Vishal this side "
+       
